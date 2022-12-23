@@ -38,9 +38,9 @@ public class PollWithDB {
         HashMap<String, Object> example = null;
         while(resultSet.next()){
             example = new HashMap<>();
-            example.put("ORDERS", resultSet.getInt("ORDERS"));
-            example.put("EXAMPLE", resultSet.getString("EXAMPLE"));
             example.put("EXAMPLE_UID", resultSet.getString("EXAMPLE_UID"));
+            example.put("EXAMPLE", resultSet.getString("EXAMPLE"));
+            example.put("ORDERS", resultSet.getInt("ORDERS"));
 
             answer.add(example);
         }
