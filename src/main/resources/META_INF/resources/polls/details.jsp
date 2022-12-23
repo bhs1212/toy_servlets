@@ -33,7 +33,7 @@
     </div>
     <div>
       <% for(int i = 0; i < example.size(); i++) { %>
-        <%=  %>
+        (<%= example.get(i).get("ORDERS")%>) <%= example.get(i).get("EXAMPLE") %>
       <% } %>
     </div>
     <script
