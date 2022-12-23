@@ -16,8 +16,6 @@ public class DatasInfor {
     public ArrayList<PollListBean> getPollBean(){
         ArrayList<PollListBean> pollList = new ArrayList<>();
         PollListBean pollListBean = new PollListBean();
-        pollListBean.setName("배하선");
-        pollListBean.setBelong("kh");
         pollListBean.setQuestion("해당 매장을 방문시 매장은 청결하였습니까?");
         pollListBean.setAnswer1("(1) 전혀 아니다");
         pollListBean.setAnswer2("(2) 아니다");

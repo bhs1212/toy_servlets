@@ -19,6 +19,6 @@ public class PollListServlet extends HttpServlet {
         ArrayList<PollListBean> pollListBean2 = datasInfor.getUserList();
         PrintWriter printWriter = response.getWriter();
         response.setContentType("text/html;charset=UTF-8");
-
+        
     }
 }
